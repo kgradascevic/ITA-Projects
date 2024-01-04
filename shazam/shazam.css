@@ -1,0 +1,110 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+.wrapper {
+    height: 100%;
+    margin: 0;
+    background-color: #06bcff;
+    display: flex;
+    flex-direction: column;
+}
+.top {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    height: 15%;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 15px;
+    justify-content: space-between;
+    align-items: center;
+}
+.shalogo {
+    width: 150px;
+    height: 45px;
+}
+.logo-and-links {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+}
+.top-txt {
+    font-weight: bolder;
+}
+.magnifier-and-connect {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.magnifier {
+    width: 30px;
+    height: 30px;
+}
+#bluebutton {
+    background-color: #06bcff;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+
+}
+.blue-button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+}
+.middle {
+    position: fixed;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+#sign-up-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    width: 300px;
+    background-color: #06bcff;
+    border-radius: 10px;
+    text-align: center;
+    gap: 10px;
+}
+input {
+    width: 80%;
+    height: 30px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#signUpButton {
+    width: 70%;
+    height: 30px;
+    margin-top: 20px;
+    background-color: black;
+    border-radius: 5px;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+#modalLogo {
+    width: 70%;
+}
+label {
+    display: block;
+    text-align: left;
+    margin-top: 10px; 
+}
+#myInput {
+    margin-top: 30px;
+}
